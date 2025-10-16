@@ -1,0 +1,8 @@
+Columna,Tipo de dato,Descripción
+ID_Transacción,Texto/Número,Identificador único de cada venta.
+Fecha,Fecha,Fecha en la que se realizó la venta.
+Región,Categórico,"Región de venta: ""Norte"", ""Sur"", ""Este"", ""Oeste""."
+Producto,Categórico,"Categoría del producto vendido: ""A"", ""B"", ""C""."
+Unidades_Vendidas,Numérico,Cantidad de artículos vendidos en esa transacción.
+Monto_Total,Numérico,Monto total de la venta (puede tener errores).
+Vendedor,Categórico,Nombre del vendedor que cerró la transacción.
