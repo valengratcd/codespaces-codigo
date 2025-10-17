@@ -1,8 +1,11 @@
-Columna,Tipo de dato,Descripción
-ID_Transacción,Texto/Número,Identificador único de cada venta.
-Fecha,Fecha,Fecha en la que se realizó la venta.
-Región,Categórico,"Región de venta: ""Norte"", ""Sur"", ""Este"", ""Oeste""."
-Producto,Categórico,"Categoría del producto vendido: ""A"", ""B"", ""C""."
-Unidades_Vendidas,Numérico,Cantidad de artículos vendidos en esa transacción.
-Monto_Total,Numérico,Monto total de la venta (puede tener errores).
-Vendedor,Categórico,Nombre del vendedor que cerró la transacción.
+ID_Transacción,Fecha,Región,Producto,Unidades_Vendidas,Monto_Total,Vendedor
+T-2025-001,2025-10-17,Norte,A,5,125.50,Ana Gómez
+T-2025-002,2025-10-17,SUR,C,"12",350.00,NULL
+T-2025-003,2025-10-18,oeste,B,7,NULL,Carlos Ruiz
+T-2025-004,2025-10-18,Este,A,1,45.99,Laura Pérez
+T-2025-005,2025-10-19,norte,B,"20",500.00,Ana Gómez
+T-2025-006,NULL,Sur,C,3,99.90,Miguel Soto
+T-2025-007,2025-10-19,OestE,A,8,180.00,NULL
+T-2025-008,2025-10-20,este,NULL,15,450.75,Carlos Ruiz
+T-2025-009,2025-10-20,NORTE,B,6,NULL,Laura Pérez
+T-2025-010,2025-10-21,Sur,C,"1",35.00,Miguel Soto
